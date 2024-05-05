@@ -5,14 +5,17 @@ Bu proje, insansız hava araçlarının (UAV'lerin) tespiti için bir sınıflan
 ## Modelin Eğitimi
 Modelin eğitiminde evrişimli sinir ağı (CNN) mimarisi tercih edilmiştir. CNN, görüntülerden özelliklerin çıkarılması ve sınıflandırma işleminin gerçekleştirilmesinde etkili bir yapısıyla öne çıkmaktadır. Geliştirilen model, eğitim verileri üzerinde başarılı bir şekilde eğitilmiş ve ardından doğrulama verileri üzerinde test edilmiştir.
 
+!["Model"](model.png)
+
 ## Veri Seti Oluşturma
 Veri seti oluşturma sürecinde, Savaşan İHA Yarışması için eğittiğimiz YOLO (You Only Look Once) modeline video verileri verilerek otomatik olarak veri seti oluşturulmuştur. Bu yöntem, geniş veri setleri gerektiren projelerde veri seti oluşturmayı kolaylaştırmış ve süreci hızlandırmıştır.
+
+!["Model"](veriseti.png)
 
 ## Sonuçlar
 Bu projenin amacı, UAV tespiti için etkili bir sınıflandırma modeli geliştirmektir. Ancak, temsili veri setinin yeterli kalitede olmamasından dolayı model yeterli başarıyı gösterememiştir. Gelecekteki çalışmalarda, modelin daha geniş ve daha temsilci veri setleri üzerinde test edilmesi ve performansının daha da iyileştirilmesi hedeflenmektedir.
 
-## CNN Modeli
 
-!["Model"](model.png)
+
 
   
